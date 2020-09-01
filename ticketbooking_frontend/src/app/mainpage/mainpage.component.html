@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link href="/src/assets/main_assets/bootstrap/css/bootstrap.min.css">
+    <link href="/src/assets/main_assets/css/Article-List.css">
+    <link href="/src/assets/main_assets/css/styles.css">
+</head>
+
+<body>
+    <div class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="display-3 text-center">Welcome {{username}}</h2>
+                <p class="text-center"></p>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="../../assets/images/dil.jpg"></a>
+                    <h3 class="text-center name" style="font-size: 28px;">Dil Bechara</h3><button class="btn btn-light border rounded border-primary shadow-sm" type="button" (click)="getMovieName('dil')" style="margin-top: 41px;">Book Now</button><a class="action" href="#"></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="../../assets/images/joker.jpg"></a>
+                    <h3 class="text-center name" style="font-size: 28px;">Joker</h3><button class="btn btn-light border rounded border-primary shadow-sm" type="button" (click)="getMovieName('joker')" style="margin-top: 41px;">Book Now</button></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="../../assets/images/kkk.jpg"></a>
+                    <h3 class="name" style="font-size: 28px;">Kannum Kannum Kollayadithal</h3><button class="btn btn-light border rounded border-primary shadow-sm" (click)="getMovieName('kkk')" type="button" style="margin-top: 14px;">Book Now</button></div>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="../../assets/images/ala.jpg"></a>
+                    <h3 class="display-2 text-center name" style="font-size: 28px;"><strong>Ala Vaikunthapuramuloo</strong></h3><button class="btn btn-light border rounded border-primary shadow-sm" type="button" style="margin-top: 41px;">Book Now</button><a class="action" href="#"></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="../../assets/images/master.jpg"></a>
+                    <h3 class="text-center name" style="font-size: 28px;">Master</h3><button class="btn btn-light border rounded border-primary shadow-sm" type="button" style="margin-top: 82px;">Book Now</button></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="../../assets/images/dia.jpg"></a>
+                    <h3 class="name" style="font-size: 28px;">Dia</h3><button class="btn btn-light border rounded border-primary shadow-sm" type="button" style="margin-top: 93px;">Book Now</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/assets/main_assets/js/jquery.min.js"></script>
+    <script src="/src/assets/main_assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
