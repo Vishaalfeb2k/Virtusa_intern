@@ -1,0 +1,5 @@
+spring:
+   message: Hello this is a profile application
+   
+server:
+   port: 8081 	   
